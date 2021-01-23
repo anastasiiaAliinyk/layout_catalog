@@ -1,0 +1,21 @@
+.photo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 166px;
+  height: 164px;
+
+  transition: transform 1s;
+
+  &__picture{
+    height: 134px;
+    width: 160px;
+  }
+
+  &:hover {
+    transform: scale(1.2);
+    border: 3px solid #f3f3f3;
+    border-radius: 5px;
+  }
+}

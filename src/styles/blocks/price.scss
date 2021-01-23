@@ -1,0 +1,15 @@
+.price {
+  &__title {
+    margin-right: 62px;
+
+    font-size: 11px;
+    font-family: 400;
+    font-weight: inherit;
+  }
+
+  &__amount {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: inherit;
+  }
+}

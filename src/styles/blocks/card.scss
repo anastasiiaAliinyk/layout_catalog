@@ -26,9 +26,8 @@
   }
 
   &__photo {
-    width: 160px;
-    height: 134px;
-    margin: 15px 5px 45px;
+    align-self: center;
+    margin-bottom: 30px;
   }
 
   &__title {
@@ -62,48 +61,6 @@
     align-items: baseline;
     align-self: flex-start;
     margin-bottom: 20px;
-  }
-
-}
-
-.raiting {
-  &__stars {
-    display: flex;
-  }
-
-  &__star {
-    width: 15px;
-    height: 15px;
-    margin-right: 4px;
-    background: url(./../images/star-active.svg) 50% no-repeat;
-
-    &:last-child {
-      margin-right: 21px;
-      background: url(./../images/star.svg) 50% no-repeat;
-    }
-  }
-
-  &__reviews {
-    margin: 0;
-    font-size: 11px;
-    font-weight: 400;
-    font-family: inherit;
-  }
-}
-
-.price {
-  &__title {
-    margin-right: 62px;
-
-    font-size: 11px;
-    font-family: 400;
-    font-weight: inherit;
-  }
-
-  &__amount {
-    font-size: 16px;
-    font-weight: 700;
-    font-family: inherit;
   }
 }
 
