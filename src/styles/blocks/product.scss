@@ -1,16 +1,9 @@
-.wrap {
-  display: flex;
-  flex-wrap: wrap;
-  width: 944px;
-  margin: 0 auto;
-}
-
-.main__card {
+.main__product {
   margin-right: 48px;
   margin-bottom: 50px;
 }
 
-.card {
+.product {
   display: flex;
   flex-direction: column;
   width: 200px;
@@ -61,27 +54,5 @@
     align-items: baseline;
     align-self: flex-start;
     margin-bottom: 20px;
-  }
-}
-
-.btn-buy {
-  padding: 12px 58px;
-  text-align: center;
-  font-weight: 700;
-  font-size: 14px;
-
-  font-family: inherit;
-  color: #fff;
-  background: #00acdc;
-  border-radius: 5px;
-  text-decoration: none;
-  text-transform: uppercase;
-
-  &:hover {
-    padding: 11px 57px;
-    color: #00acdc;
-
-    background: #fff;
-    border: 1px solid #00acdc;
   }
 }

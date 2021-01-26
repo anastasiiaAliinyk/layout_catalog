@@ -1,0 +1,22 @@
+
+.btn-buy {
+  padding: 12px 58px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: inherit;
+  color: #fff;
+
+  background: #00acdc;
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &:hover {
+    padding: 11px 57px;
+    color: #00acdc;
+
+    background: #fff;
+    border: 1px solid #00acdc;
+  }
+}
