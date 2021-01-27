@@ -24,10 +24,6 @@
     &:last-child {
       margin-right: 0;
     }
-
-    & :hover {
-      color: #00acdc;
-    }
   }
 
   &__link {
@@ -36,6 +32,11 @@
     text-decoration: none;
     text-transform: uppercase;
     color: #000;
+    transition: color 0.3s;
+
+    &:hover {
+      color: #00acdc;
+    }
   }
 }
 
