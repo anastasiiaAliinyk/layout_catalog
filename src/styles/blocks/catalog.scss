@@ -3,7 +3,9 @@
 }
 
 .catalog {
-  display: flex;
-  flex-wrap: wrap;
-  width: 944px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, min(200px));
+  grid-gap: 50px 48px;
+  justify-content: center;
+  max-width: 1020px;
 }

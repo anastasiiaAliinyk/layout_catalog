@@ -1,13 +1,9 @@
 .nav {
-  display: flex;
-  align-items: center;
+  grid-area: nav;
 
   &__list {
-    display: flex;
-    margin: 0;
-    padding: 0;
-
-    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(8, auto);
   }
 
   &__item {
@@ -24,10 +20,6 @@
     &:last-child {
       margin-right: 0;
     }
-
-    & :hover {
-      color: #00acdc;
-    }
   }
 
   &__link {
@@ -36,6 +28,12 @@
     text-decoration: none;
     text-transform: uppercase;
     color: #000;
+
+    transition: color 0.3s;
+
+    &:hover {
+      color: #00acdc;
+    }
   }
 }
 

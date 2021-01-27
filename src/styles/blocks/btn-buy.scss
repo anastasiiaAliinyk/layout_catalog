@@ -12,6 +12,9 @@
   text-decoration: none;
   text-transform: uppercase;
 
+  transition: background-color 1s;
+
+
   &:hover {
     padding: 11px 57px;
     color: #00acdc;
