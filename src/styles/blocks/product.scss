@@ -35,13 +35,15 @@
   }
 
   &__raiting {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
     align-items: center;
     margin-bottom: 20px;
   }
 
   &__price {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
     align-items: baseline;
     margin-bottom: 20px;
   }
